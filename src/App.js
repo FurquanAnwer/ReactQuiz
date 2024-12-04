@@ -114,7 +114,7 @@ function App() {
               <Timer dispatch={dispatch} secondsRemaining={secondsRemaining}/>
               <NextButton dispatch={dispatch} answer={answer} index={index} numQuestions={numQuestions}/>
             </Footer>
-            </>
+          </>
         )
         }
         {status==='finished' && <FinishScreen points={points} maxPossiblePoints={maxPossiblePoints} highscore={highscore} dispatch={dispatch}/>}
